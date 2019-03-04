@@ -1,0 +1,9 @@
+body {
+    background-image: url('images/WebDevBK.jpg');
+    background-repeat: cover;
+}
+
+#site-nav {
+    color: white;
+    font-size: 32px;
+}
