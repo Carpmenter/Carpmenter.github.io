@@ -1,6 +1,7 @@
 body {
     background-image: url('images/WebDevBK.jpg');
-    background-repeat: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #site-nav {
