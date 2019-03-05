@@ -3,6 +3,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#navigation{
+    height: 10%;
+}
 nav {
     width: 100%;
 }
