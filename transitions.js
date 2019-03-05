@@ -4,10 +4,10 @@ $("nav li a").on('click', function(event){
 
     event.preventDefault();
 
-    var link = $(this).attr("href");
+    const link = $(this).attr("href");
     console.log(link);
 
-    //window.history.pushState(null, null, link);
+    window.history.pushState(null, null, link);
 
     $("nav li a").removeClass('active');
     $(this).addClass('active');
@@ -15,7 +15,14 @@ $("nav li a").on('click', function(event){
     $.ajax({
         url: link,
         success: function(data) {
-            $('main').fadeOut(250);
+            $('main').fadeOut(250, function() {
+
+                var page = $(data).filter('main').html();
+                
+                $('main').html(page);
+                $('main').fadeIn(250); 
+            });
         }
+        
     });
 });
