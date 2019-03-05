@@ -9,8 +9,7 @@ nav {
 #site-nav {
     float: right;
     color: white;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 36px;
     list-style: none;
     margin-right: 5%;
 }
@@ -20,4 +19,12 @@ nav {
     padding: 10px 0;
     margin: 30px;
     font-family: 'Advent Pro';
+}
+#site-nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    font-weight: 1000!important;
 }
