@@ -15,11 +15,11 @@ $(document).ready(function () {
         $.ajax({
             url: link,
             success: function(data) {
-                $('main').fadeOut(250, function() {
-                    var page = $(data).filter('main').html();
+                $('#main').fadeOut(250, function() {
+                    var page = $(data).filter('#main').html();
                     
-                    $('main').html(page);
-                    $('main').fadeIn(250); 
+                    $('#main').html(page);
+                    $('#main').fadeIn(250); 
                 });
             }
             

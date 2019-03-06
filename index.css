@@ -31,3 +31,10 @@ nav {
 .active{
     font-weight: 1000!important;
 }
+#main{
+    margin: 10%;
+    padding: 15%;
+    font-family: 'Shadows Into Light Two';
+    font-size: 42px;
+    color: white;
+}
