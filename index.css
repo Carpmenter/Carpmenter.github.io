@@ -31,7 +31,21 @@ nav {
 .active{
     font-weight: 1000!important;
 }
-#main{
+#main-about{
+    padding: 15%;
+    font-family: 'Shadows Into Light Two';
+    font-size: 42px;
+    color: white;
+}
+#main-projects{
+    padding: 10%;
+    background-image: url('images/WeatherHUB.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    height: 300px;
+    background-position: center;
+}
+#main-contact{
     padding: 15%;
     font-family: 'Shadows Into Light Two';
     font-size: 42px;
