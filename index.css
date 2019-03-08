@@ -39,11 +39,22 @@ nav {
 }
 #main-projects{
     padding: 10%;
+    background-position: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Shadows Into Light Two';
+}
+#project-img{
     background-image: url('images/WeatherHUB.jpg');
     background-repeat: no-repeat;
     background-size: 400px 300px;
     height: 300px;
-    background-position: center;
+    width: 400px;
+    border-radius: 5px;
+    
+}
+#main-projects ul li{
+    font-size: 24px;
 }
 #main-contact{
     padding: 15%;
