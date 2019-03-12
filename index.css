@@ -1,7 +1,14 @@
 body {
-    background-image: url('images/WebDevBK.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: url('images/WebDevBK.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.p-page{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/WebDevBK.jpg');
 }
 nav {
     width: 100%;
@@ -39,22 +46,43 @@ nav {
 }
 #main-projects{
     padding: 10%;
-    background-position: center;
+    padding-top: 5%;
     color: white;
     font-size: 36px;
+    text-shadow: 3px 3px 3px rgb(27, 27, 27);
     font-family: 'Shadows Into Light Two';
+    text-align: center;
 }
-#project-img{
-    background-image: url('images/WeatherHUB.jpg');
-    background-repeat: no-repeat;
+#proj1-img{
+    background: url('images/WeatherHUB.jpg') no-repeat center;
     background-size: 400px 300px;
     height: 300px;
     width: 400px;
+    margin: auto;
     border-radius: 5px;
-    
+    box-shadow: 3px 3px 3px rgba(104, 104, 104, 0.541);
 }
+#proj1-img:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+}
+#proj2-img{
+    background: url('images/budgetIdea.jpg') no-repeat center;
+    background-size: 400px 300px;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(104, 104, 104, 0.541);
+}
+#proj2-img:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+}
+#main-projects ul { font-size: 30px;}
 #main-projects ul li{
     font-size: 24px;
+    list-style: none;
 }
 #main-contact{
     padding: 15%;
