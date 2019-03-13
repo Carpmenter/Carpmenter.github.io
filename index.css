@@ -44,6 +44,13 @@ nav {
     font-size: 42px;
     color: white;
 }
+#main-ps{
+    padding: 2%;
+    font-family: 'Shadows Into Light Two';
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgb(27, 27, 27);
+}
 #main-projects{
     padding: 10%;
     padding-top: 5%;
@@ -60,7 +67,7 @@ nav {
     width: 400px;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(104, 104, 104, 0.541);
+    box-shadow: 3px 3px 3px rgba(43, 43, 43, 0.541);
 }
 #proj1-img:hover{
     cursor: pointer;
@@ -73,7 +80,7 @@ nav {
     width: 400px;
     margin: auto;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px rgba(104, 104, 104, 0.541);
+    box-shadow: 3px 3px 3px rgba(43, 43, 43, 0.541);
 }
 #proj2-img:hover{
     cursor: pointer;
@@ -89,4 +96,8 @@ nav {
     font-family: 'Shadows Into Light Two';
     font-size: 42px;
     color: white;
+}
+#main-contact a{
+    color: white;
+    text-decoration: none;
 }
