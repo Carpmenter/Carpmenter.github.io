@@ -44,10 +44,10 @@ nav {
     font-size: 42px;
     color: white;
 }
-#main-ps{
-    padding: 2%;
+#main-note{
+    padding: 5%;
     font-family: 'Shadows Into Light Two';
-    font-size: 28px;
+    font-size: 22px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px rgb(27, 27, 27);
 }
@@ -59,6 +59,13 @@ nav {
     text-shadow: 3px 3px 3px rgb(27, 27, 27);
     font-family: 'Shadows Into Light Two';
     text-align: center;
+}
+#main-projects li a{
+    color: white; 
+    text-decoration: none;
+}
+#main-projects li a:hover{
+    color: rgb(155, 155, 155);
 }
 #proj1-img{
     background: url('images/WeatherHUB.jpg') no-repeat center;
