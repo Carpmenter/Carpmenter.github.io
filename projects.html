@@ -4,7 +4,8 @@
         <!--Google Fonts-->
         <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Shadows Into Light Two' rel='stylesheet'>
-
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
         <link href="index.css" rel="stylesheet">
     </head>
     <body>
@@ -21,32 +22,38 @@
             </div>
         </header>
         <main>
-            <div id="main-projects">
-                <div style="margin-bottom: 5%;">
-                    <div>WeatherHUB
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>WeatherHUB
                             <ul>Project Summary
                                 <li>Javascript Weather Application using Openweathermap, Leaflet, and Mapbox API's</li>
                                 <li>JQuery used for events and AJAX calls</li>
                                 <li>Layout and design using CSS and Bootstrap 4</li>
                                 <li><a href="https://github.com/Carpmenter/WeatherHUB">Source Code</a></li>
                             </ul>
+                        </div>
+                        <a href="http://64.255.142.156:8080/WeatherHUB/main.html"><div id="proj1-img"></div></a>
                     </div>
-                    <a href="http://64.255.142.156:8080/WeatherHUB/main.html"><div id="proj1-img"></div></a>
-                </div>
-                <div style="margin-top: 5%;">                    
-                    <div>GrowUP (In Development)
-                        <ul>Personal Budgeting App with the following goals:
-                            <li>Build backend API for app data & authentication using ASP.NET Web API (C#)</li>
-                            <li>Create client with React.js for a great UX with a modern JS Framework</li>
-                            <li>Polished and seamless UI design with CSS/Bootstrap</li>
-                        </ul>
+                    <div class="col-md-6">
+                        <div>GrowUP (In Development)
+                            <ul>Personal Budgeting App with the following goals:
+                                <li>Build backend API for app data & authentication using ASP.NET Web API (C#)</li>
+                                <li>Create client with React.js for a great UX with a modern JS Framework</li>
+                                <li>Polished and mobile friendly UI design using CSS/Bootstrap</li>
+                            </ul>
+                            </div>
+                            <a href="https://github.com/Carpmenter/GrowUP"><div id="proj2-img"></div></a>
+                        <div id="mobile-img"></div>
                     </div>
-                    <a href="https://github.com/Carpmenter/GrowUP"><div id="proj2-img"></div></a>
                 </div>
             </div>
-        </main>
+            <div id="main-projects">
 
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+            </div>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="transitions.js"></script>
     </body>
 </html>

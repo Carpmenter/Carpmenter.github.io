@@ -81,7 +81,7 @@ nav {
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
 }
 #proj2-img{
-    background: url('images/budgetIdea.jpg') no-repeat center;
+    background: url('images/gu-update1.png') no-repeat center;
     background-size: 400px 300px;
     height: 300px;
     width: 400px;
@@ -92,6 +92,12 @@ nav {
 #proj2-img:hover{
     cursor: pointer;
     box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+}
+#mobile-img{
+    background: url('images/mobileApp.png') no-repeat center;
+    background-size: 200px 350px;
+    width: 200px;
+    height: 400px;
 }
 #main-projects ul { font-size: 30px;}
 #main-projects ul li{
