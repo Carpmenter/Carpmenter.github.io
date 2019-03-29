@@ -7,11 +7,6 @@ $(document).ready(function () {
         const link = $(this).attr("href");
         console.log(link);
         // Eventually remove this logic and and a color background for each project
-        if (link === 'projects.html'){
-            $('body').addClass('p-page');
-        } else{
-            $('body').removeClass('p-page');
-        }
     
         window.history.pushState(null, null, link);
     
