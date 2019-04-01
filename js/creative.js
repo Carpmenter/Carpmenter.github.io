@@ -55,4 +55,7 @@
     }
   });
 
+  $('#resume').attr({target: '_blank', 
+  href  : '/files/resume.pdf'});
+
 })(jQuery); // End of use strict
